@@ -4,7 +4,7 @@ const config = require("./config");
 const { port } = config;
 
 const server = app.listen(port, () => {
-  console.log("App listening on port: ", port);
+  console.log("App listening on port:", port);
 });
 
 function exitHandler() {
